@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FormLoginToTheWebsiteOfTheRegisteredUser" verbose="2" parallel="tests" thread-count="2">
+
+
+
+
+    <test name="test1" >
+        <groups>
+            <run>
+                <include name="negative_test"/>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="Example.ExampleTest"/>
+        </classes>
+    </test>
+
+    <test name="test2" >
+        <groups>
+            <run>
+                <include name="positive_test"/>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="Example.ExampleTest"/>
+        </classes>
+    </test>
+
+
+
+</suite>
