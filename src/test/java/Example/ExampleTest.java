@@ -1,24 +1,13 @@
 package Example;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test; ///
 
-import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.Test;
 
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Администратор on 13.04.2017.
  */
 public class ExampleTest {
-
-
-
-
 
     @Test(priority = 1,groups = {"positive_test"})
     public void logInLogOut()
@@ -41,21 +30,21 @@ public class ExampleTest {
     }
 
 
-    @Test(priority = 8,groups = {"negative_test"})   //Нажата радио кнопка Email
+    @Test(priority = 7,groups = {"negative_test"})   //Нажата радио кнопка Email
     public void logInWithoutInputPassword()
     {
         LogInWithOutInputPassword.logInWithoutInputPassword1();
     }
 
 
-    @Test(priority = 7,groups = {"negative_test"})
+    @Test(priority = 8,groups = {"negative_test"})
     public void logInWithoutInputPhone()
     {
         LoginInWithOutInputPhone.logInWithoutInputPhone1();
     }
 
 
-    @Test(priority = 6 ,groups = {"negative_test" })//Нажата радио кнопка Телефон
+    @Test(priority = 13 ,groups = {"negative_test" })//Нажата радио кнопка Телефон
     public void logInWithoutInputPasswordPressedRadioButtonPhone()
     {
         LogInWihtOutInputPasswordPreseedRadioButtonPhone.logInWithoutInputPasswordPressedRadioButtonPhone1();
@@ -104,7 +93,7 @@ public class ExampleTest {
     }
 
 
-    @Test(priority = 13,groups = {"positive_test"})
+    @Test(priority = 6,groups = {"positive_test"})
     public void formlogInWithClickLinkImageDns2()
     {
         FormLogInWithClickLinkImageDns2.formlogInWithClickLinkImageDns2_2();
@@ -154,3 +143,4 @@ public class ExampleTest {
     }
 
 }
+
