@@ -33,7 +33,7 @@ public class LoginInWithInputInvalidEmail {
 
 
         // Поиск поля ввода логин и ввод некорректного значения
-        // Найти поле логин и ввести некоректный телефон
+        
         WebElement searchField = driver.findElement(By.cssSelector("input#login.first.placeholder-right"));
         searchField.clear();
         searchField.sendKeys("00");
