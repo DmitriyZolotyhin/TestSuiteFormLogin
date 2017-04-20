@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29827ac-8287-42b9-acb3-124a60c554af" name="Default" comment="Gitignore">
+    <list default="true" id="a29827ac-8287-42b9-acb3-124a60c554af" name="Default" comment="logInWithInputInvalidEmal1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Example/LoginInWithInputInvalidEmail.class" afterPath="$PROJECT_DIR$/target/test-classes/Example/LoginInWithInputInvalidEmail.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" afterPath="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.html" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.html" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Example.ExampleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Example.ExampleTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" afterPath="$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +24,20 @@
             <state relative-caret-position="833">
               <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="41" />
               <folding>
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="false" />
+                <element signature="e#389#390#0" expanded="false" />
+                <element signature="e#476#477#0" expanded="false" />
+                <element signature="e#540#541#0" expanded="false" />
+                <element signature="e#661#662#0" expanded="false" />
+                <element signature="e#731#732#0" expanded="false" />
+                <element signature="e#818#819#0" expanded="false" />
+                <element signature="e#884#885#0" expanded="false" />
+                <element signature="e#1610#1611#0" expanded="false" />
+                <element signature="e#1688#1689#0" expanded="false" />
+                <element signature="e#1989#1990#0" expanded="false" />
+                <element signature="e#2051#2052#0" expanded="false" />
+                <element signature="e#2147#2148#0" expanded="false" />
+                <element signature="e#2228#2229#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginInWithInputInvalidEmail.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginInWithInputInvalidEmail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
+              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -108,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Example/LogInWithInputInvalidPhonePressed.java" />
         <option value="$PROJECT_DIR$/src/test/java/Example/LogInWithInputInvalidPasswordPressedRadioButtonPhone.java" />
         <option value="$PROJECT_DIR$/src/test/java/Example/LogInWithInputInvalidPassword.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" />
         <option value="$PROJECT_DIR$/src/test/java/Example/LogInLogOut.java" />
         <option value="$PROJECT_DIR$/src/test/java/Example/LoginInWithOutInputPhone.java" />
         <option value="$PROJECT_DIR$/src/test/java/Example/FormLogInWithClickLinkRegistration.java" />
@@ -122,6 +127,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" />
       </list>
     </option>
   </component>
@@ -567,16 +573,17 @@
       <option name="project" value="LOCAL" />
       <updated>1492611988561</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="logInWithInputInvalidEmal1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;">
+      <created>1492668937601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1492668937601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest - 2017.04.19 at 15h 04m 35s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.19 at 15h 39m 59s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExampleTest - 2017.04.19 at 17h 41m 20s.xml">
       <configuration name="ExampleTest" configurationId="TestNG" />
     </history-entry>
@@ -601,6 +608,12 @@
     <history-entry file="ExampleTest - 2017.04.20 at 09h 12m 44s.xml">
       <configuration name="ExampleTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExampleTest - 2017.04.20 at 09h 20m 40s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.20 at 09h 51m 39s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="2" width="1278" height="981" extended-state="0" />
@@ -608,15 +621,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.47044334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.46715927" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.40229884" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.124794744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49671593" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.59770113" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.41050902" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124794744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49343187" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.58949095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32430214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3908046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -668,7 +681,8 @@
     <MESSAGE value="Add Gitignore file" />
     <MESSAGE value="Add Gitignore" />
     <MESSAGE value="Gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gitignore" />
+    <MESSAGE value="logInWithInputInvalidEmal1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="logInWithInputInvalidEmal1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,8 +716,20 @@
         <state relative-caret-position="1122">
           <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+            <element signature="e#2228#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -721,8 +747,20 @@
         <state relative-caret-position="17">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding>
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+            <element signature="e#2228#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -756,8 +794,20 @@
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+            <element signature="e#2228#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -783,8 +833,20 @@
         <state relative-caret-position="255">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+            <element signature="e#2228#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,8 +872,20 @@
         <state relative-caret-position="255">
           <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+            <element signature="e#2228#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,8 +911,20 @@
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+            <element signature="e#2228#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -989,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Example/LogInWithVoidValuePressedRadioButtonPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1044,8 +1123,20 @@
         <state relative-caret-position="833">
           <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="41" />
           <folding>
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2147#2148#0" expanded="false" />
+            <element signature="e#2228#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1069,7 +1160,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
+          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="72" />
           <folding />
         </state>
       </provider>

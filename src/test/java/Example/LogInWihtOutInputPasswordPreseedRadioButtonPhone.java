@@ -37,7 +37,7 @@ public class LogInWihtOutInputPasswordPreseedRadioButtonPhone {
 
         //Найти и оставить пустое поле Пароль
         WebElement searchField2 = driver.findElement(By.cssSelector("input#password.second"));
-        searchField2.clear();
+        searchField2.click();
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
         //Нажать кнопку Войти
