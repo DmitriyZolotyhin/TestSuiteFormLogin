@@ -34,7 +34,7 @@
 
                     <configuration>
                         <parallel>tests</parallel>
-                        <threadCount>3</threadCount>
+                        <threadCount>2</threadCount>
                         <suiteXmlFiles>
                             <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
