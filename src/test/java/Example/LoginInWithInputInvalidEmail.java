@@ -25,6 +25,7 @@ public class LoginInWithInputInvalidEmail {
         driver.get("http://www.dns-shop.ru/");
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
+        driver.manage().deleteAllCookies(); //удалить куки
         //Нажать Войти
         WebElement searchButton = driver.findElement(By.cssSelector("a#loginButton.dropdown-toggle"));
         searchButton.click();

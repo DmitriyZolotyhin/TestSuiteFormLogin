@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29827ac-8287-42b9-acb3-124a60c554af" name="Default" comment="logInWithInputInvalidEmal1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Example/LoginInWithInputInvalidEmail.class" afterPath="$PROJECT_DIR$/target/test-classes/Example/LoginInWithInputInvalidEmail.class" />
+    <list default="true" id="a29827ac-8287-42b9-acb3-124a60c554af" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.class" afterPath="$PROJECT_DIR$/target/test-classes/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" afterPath="$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" afterPath="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.html" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.html" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Example.ExampleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Example.ExampleTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,22 +37,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="833">
               <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="41" />
-              <folding>
-                <element signature="e#333#334#0" expanded="false" />
-                <element signature="e#389#390#0" expanded="false" />
-                <element signature="e#476#477#0" expanded="false" />
-                <element signature="e#540#541#0" expanded="false" />
-                <element signature="e#661#662#0" expanded="false" />
-                <element signature="e#731#732#0" expanded="false" />
-                <element signature="e#818#819#0" expanded="false" />
-                <element signature="e#884#885#0" expanded="false" />
-                <element signature="e#1610#1611#0" expanded="false" />
-                <element signature="e#1688#1689#0" expanded="false" />
-                <element signature="e#1989#1990#0" expanded="false" />
-                <element signature="e#2051#2052#0" expanded="false" />
-                <element signature="e#2147#2148#0" expanded="false" />
-                <element signature="e#2228#2229#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,17 +52,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginInWithInputInvalidEmail.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginInWithInputInvalidEmail.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
+            <state relative-caret-position="242">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -76,7 +75,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="527">
               <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="33" />
               <folding />
             </state>
@@ -126,8 +125,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Example/ExampleTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/Example/LogInWihtOutInputPasswordPreseedRadioButtonPhone.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" />
       </list>
     </option>
   </component>
@@ -202,6 +201,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,8 +279,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -580,13 +579,17 @@
       <option name="project" value="LOCAL" />
       <updated>1492668937601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" logInWithoutInputPasswordPressedRadioButtonPhone1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;">
+      <created>1492671167981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1492671167981</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest - 2017.04.19 at 17h 41m 20s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExampleTest - 2017.04.19 at 17h 52m 24s.xml">
       <configuration name="ExampleTest" configurationId="TestNG" />
     </history-entry>
@@ -614,22 +617,24 @@
     <history-entry file="ExampleTest - 2017.04.20 at 09h 51m 39s.xml">
       <configuration name="ExampleTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExampleTest - 2017.04.20 at 12h 35m 14s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="2" width="1278" height="981" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.46715927" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.4638752" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.41050902" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.4187192" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124794744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49343187" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.58949095" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.58128077" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3908046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39737275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -682,7 +687,8 @@
     <MESSAGE value="Add Gitignore" />
     <MESSAGE value="Gitignore" />
     <MESSAGE value="logInWithInputInvalidEmal1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="logInWithInputInvalidEmal1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;" />
+    <MESSAGE value=" logInWithoutInputPasswordPressedRadioButtonPhone1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value=" logInWithoutInputPasswordPressedRadioButtonPhone1 fixed &quot;searchField2.clear();&quot; on &quot;searchField2.click();&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,22 +721,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2147#2148#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,22 +737,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding>
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2147#2148#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,22 +769,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2147#2148#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,22 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2147#2148#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,22 +817,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2147#2148#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -910,22 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2147#2148#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,22 +1038,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="41" />
-          <folding>
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1688#1689#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2051#2052#0" expanded="false" />
-            <element signature="e#2147#2148#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,16 +1052,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="527">
           <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1169,6 +1062,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
           <folding />
         </state>
       </provider>
