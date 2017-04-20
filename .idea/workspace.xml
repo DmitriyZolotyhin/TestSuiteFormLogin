@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29827ac-8287-42b9-acb3-124a60c554af" name="Default" comment="" />
+    <list default="true" id="a29827ac-8287-42b9-acb3-124a60c554af" name="Default" comment="Gitignore">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" afterPath="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.html" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.html" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/test2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/FormLoginToTheWebsiteOfTheRegisteredUser/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Example.ExampleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Example.ExampleTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/FormLoginToTheWebsiteOfTheRegisteredUser/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,24 +34,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExampleTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExampleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Example/ExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="833">
               <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="41" />
+              <folding>
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginInWithInputInvalidEmail.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginInWithInputInvalidEmail.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="68" column="50" lean-forward="false" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,7 +70,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="170">
               <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="33" />
               <folding />
             </state>
@@ -87,9 +118,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Example/FormLogInWithClickLinkImageDns1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Example/FormLogInWithClickLinkForgotPassword.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Example/ExampleTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Example/ExampleTest.java" />
       </list>
     </option>
   </component>
@@ -110,24 +142,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="testng-maven" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="testng-maven" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="surefire" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -259,12 +273,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -531,38 +546,59 @@
       <option name="project" value="LOCAL" />
       <updated>1492607192273</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Gitignore file">
+      <created>1492610248157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492610248157</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Gitignore">
+      <created>1492611227411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492611227411</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Gitignore">
+      <created>1492611988561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1492611988561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest - 2017.04.17 at 08h 35m 50s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.17 at 11h 21m 51s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.17 at 11h 29m 29s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.17 at 12h 20m 50s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.17 at 13h 41m 09s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.17 at 23h 18m 23s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.18 at 06h 02m 41s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2017.04.19 at 14h 46m 58s.xml">
-      <configuration name="ExampleTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExampleTest - 2017.04.19 at 15h 04m 35s.xml">
       <configuration name="ExampleTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ExampleTest - 2017.04.19 at 15h 39m 59s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.19 at 17h 41m 20s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.19 at 17h 52m 24s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.19 at 18h 22m 27s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.19 at 18h 28m 35s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.19 at 18h 28m 53s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.19 at 18h 55m 16s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.20 at 09h 07m 26s.xml">
+      <configuration name="ExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2017.04.20 at 09h 12m 44s.xml">
       <configuration name="ExampleTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -572,15 +608,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.4770115" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.47044334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.37766832" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.40229884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.124794744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.6223317" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49671593" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33254993" sideWeight="0.59770113" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43513957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32430214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -629,7 +665,10 @@
     <MESSAGE value="commit example" />
     <MESSAGE value="Corrected the priority" />
     <MESSAGE value="Removed priority, fixed the method logInWithInputInvalidEmal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed priority, fixed the method logInWithInputInvalidEmal" />
+    <MESSAGE value="Add Gitignore file" />
+    <MESSAGE value="Add Gitignore" />
+    <MESSAGE value="Gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,14 +681,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Example/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="64" lean-forward="false" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -670,7 +701,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,7 +720,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +755,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,7 +782,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -766,7 +809,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -790,7 +836,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -972,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,36 +1032,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Example/LogInWithInputInvalidPasswordPressedRadioButtonPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Example/ExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="41" />
+          <folding>
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Example/LoginInWithInputInvalidEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="68" column="50" lean-forward="false" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Example/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="480">
+          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
           <folding />
         </state>
       </provider>

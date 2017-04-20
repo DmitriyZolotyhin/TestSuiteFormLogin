@@ -41,7 +41,7 @@ public class LoginInWithInputInvalidEmail {
 
         // Найти поле пароль и очистить
         WebElement searchField2 = driver.findElement(By.cssSelector("input#password.second"));
-        searchField2.clear();
+        searchField2.click();
 
         //Поиск ошибки
         WebElement searchFieldError = driver.findElement(By.cssSelector("div.error"));

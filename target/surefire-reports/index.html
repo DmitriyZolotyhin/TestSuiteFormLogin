@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser">
-              <span class="suite-name border-passed">FormLoginToTheWebsiteOfTheRegisteredUser</span>
+              <span class="suite-name border-failed">FormLoginToTheWebsiteOfTheRegisteredUser</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods,   18 passed</span>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser" class="hide-methods failed suite-FormLoginToTheWebsiteOfTheRegisteredUser"> (hide)</a> <!-- hide-methods failed suite-FormLoginToTheWebsiteOfTheRegisteredUser -->
+                      <a href="#" panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser" class="show-methods failed suite-FormLoginToTheWebsiteOfTheRegisteredUser"> (show)</a> <!-- show-methods failed suite-FormLoginToTheWebsiteOfTheRegisteredUser -->
+                    </span>
+                    <div class="method-list-content failed suite-FormLoginToTheWebsiteOfTheRegisteredUser">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser" title="Example.ExampleTest" hash-for-method="LogInWithInputInvalidPasswordPressedRadioButtonPhone">LogInWithInputInvalidPasswordPressedRadioButtonPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FormLoginToTheWebsiteOfTheRegisteredUser -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser" class="show-methods passed suite-FormLoginToTheWebsiteOfTheRegisteredUser"> (show)</a> <!-- show-methods passed suite-FormLoginToTheWebsiteOfTheRegisteredUser -->
                     </span>
                     <div class="method-list-content passed suite-FormLoginToTheWebsiteOfTheRegisteredUser">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser" title="Example.ExampleTest" hash-for-method="LogInWithInputInvalidPasswordPressedRadioButtonPhone">LogInWithInputInvalidPasswordPressedRadioButtonPhone</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser" title="Example.ExampleTest" hash-for-method="formlogInWithClickLinkForgotPassword">formlogInWithClickLinkForgotPassword</a> <!-- method navigator-link -->
@@ -202,9 +211,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-FormLoginToTheWebsiteOfTheRegisteredUser" class="panel FormLoginToTheWebsiteOfTheRegisteredUser">
-          <div class="suite-FormLoginToTheWebsiteOfTheRegisteredUser-class-passed">
+          <div class="suite-FormLoginToTheWebsiteOfTheRegisteredUser-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Example.ExampleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -213,8 +222,25 @@
                   <a name="LogInWithInputInvalidPasswordPressedRadioButtonPhone">
                   </a> <!-- LogInWithInputInvalidPasswordPressedRadioButtonPhone -->
                   <span class="method-name">LogInWithInputInvalidPasswordPressedRadioButtonPhone</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [] but found [Ошибка! Неправильная пара логин или пароль]
+	at Example.LogInWithInputInvalidPasswordPressedRadioButtonPhone.logInWithInputInvalidPassword1(LogInWithInputInvalidPasswordPressedRadioButtonPhone.java:52)
+	at Example.ExampleTest.LogInWithInputInvalidPasswordPressedRadioButtonPhone(ExampleTest.java:141)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FormLoginToTheWebsiteOfTheRegisteredUser-class-failed -->
+          <div class="suite-FormLoginToTheWebsiteOfTheRegisteredUser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Example.ExampleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="formlogInWithClickLinkForgotPassword">
@@ -490,80 +516,80 @@ data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logInLogOut')
 data.setCell(0, 2, 'Example.ExampleTest')
-data.setCell(0, 3, 17769);
+data.setCell(0, 3, 20817);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LogInWithInputInvalidPasswordPressedRadioButtonPhone')
 data.setCell(1, 2, 'Example.ExampleTest')
-data.setCell(1, 3, 16134);
+data.setCell(1, 3, 16880);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logInWithInputInvalidPassword')
+data.setCell(2, 1, 'formlogInWithClickLinkImageDns3')
 data.setCell(2, 2, 'Example.ExampleTest')
-data.setCell(2, 3, 15181);
+data.setCell(2, 3, 16715);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'formlogInWithClickLinkImageDns3')
+data.setCell(3, 1, 'logInWithInputInvalidPassword')
 data.setCell(3, 2, 'Example.ExampleTest')
-data.setCell(3, 3, 14535);
+data.setCell(3, 3, 16568);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'formlogInWithClickLinkImageDns1')
 data.setCell(4, 2, 'Example.ExampleTest')
-data.setCell(4, 3, 13058);
+data.setCell(4, 3, 15791);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'formlogInWithClickLinkImageDns4')
+data.setCell(5, 1, 'formlogInWithClickLinkImageDns2')
 data.setCell(5, 2, 'Example.ExampleTest')
-data.setCell(5, 3, 12354);
+data.setCell(5, 3, 15646);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'logInWithInputInvalidPhonePressed')
+data.setCell(6, 1, 'logInWithInputInvalidEmal')
 data.setCell(6, 2, 'Example.ExampleTest')
-data.setCell(6, 3, 12236);
+data.setCell(6, 3, 14357);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'logInWithShowPassword')
+data.setCell(7, 1, 'formlogInWithClickLinkImageDns4')
 data.setCell(7, 2, 'Example.ExampleTest')
-data.setCell(7, 3, 12170);
+data.setCell(7, 3, 14318);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'formlogInWithClickLinkImageDns2')
+data.setCell(8, 1, 'formlogInWithClickLinkForgotPassword')
 data.setCell(8, 2, 'Example.ExampleTest')
-data.setCell(8, 3, 11700);
+data.setCell(8, 3, 12925);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'formlogInWithClickLinkForgotPassword')
+data.setCell(9, 1, 'logInWithoutInputPasswordPressedRadioButtonPhone')
 data.setCell(9, 2, 'Example.ExampleTest')
-data.setCell(9, 3, 11404);
+data.setCell(9, 3, 12314);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'logInWithVoidValuePressedRadioButtonPhone')
+data.setCell(10, 1, 'formlogInWithClickLinkRegistration')
 data.setCell(10, 2, 'Example.ExampleTest')
-data.setCell(10, 3, 11278);
+data.setCell(10, 3, 12211);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'logInWithoutInputPasswordPressedRadioButtonPhone')
+data.setCell(11, 1, 'logInWithInputInvalidPhonePressed')
 data.setCell(11, 2, 'Example.ExampleTest')
-data.setCell(11, 3, 11256);
+data.setCell(11, 3, 11763);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'logInWithInputInvalidEmal')
+data.setCell(12, 1, 'logInWithoutInputPassword')
 data.setCell(12, 2, 'Example.ExampleTest')
-data.setCell(12, 3, 10322);
+data.setCell(12, 3, 11715);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'formlogInWithClickLinkRegistration')
+data.setCell(13, 1, 'logInWithoutInputEmail')
 data.setCell(13, 2, 'Example.ExampleTest')
-data.setCell(13, 3, 10274);
+data.setCell(13, 3, 10877);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'logInWithoutInputPassword')
+data.setCell(14, 1, 'logInWithVoidValue')
 data.setCell(14, 2, 'Example.ExampleTest')
-data.setCell(14, 3, 10202);
+data.setCell(14, 3, 10853);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'logInWithoutInputPhone')
+data.setCell(15, 1, 'logInWithVoidValuePressedRadioButtonPhone')
 data.setCell(15, 2, 'Example.ExampleTest')
-data.setCell(15, 3, 9926);
+data.setCell(15, 3, 10464);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'logInWithVoidValue')
+data.setCell(16, 1, 'logInWithShowPassword')
 data.setCell(16, 2, 'Example.ExampleTest')
-data.setCell(16, 3, 9912);
+data.setCell(16, 3, 9909);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'logInWithoutInputEmail')
+data.setCell(17, 1, 'logInWithoutInputPhone')
 data.setCell(17, 2, 'Example.ExampleTest')
-data.setCell(17, 3, 8700);
+data.setCell(17, 3, 9796);
 window.suiteTableData['FormLoginToTheWebsiteOfTheRegisteredUser']= { tableData: data, tableDiv: 'times-div-FormLoginToTheWebsiteOfTheRegisteredUser'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-FormLoginToTheWebsiteOfTheRegisteredUser">
               </div> <!-- times-div-FormLoginToTheWebsiteOfTheRegisteredUser -->
             </div> <!-- times-div -->
@@ -636,72 +662,74 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">LogInWithInputInvalidPasswordPressedRadioButtonPhone</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">formlogInWithClickLinkImageDns1</span>
-                <span class="method-start">11405 ms</span>
+                <span class="method-start">12926 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithInputInvalidEmal</span>
-                <span class="method-start">16134 ms</span>
+                <span class="method-start">16880 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">formlogInWithClickLinkImageDns2</span>
-                <span class="method-start">24463 ms</span>
+                <span class="method-start">28718 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithInputInvalidPassword</span>
-                <span class="method-start">26457 ms</span>
+                <span class="method-start">31237 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">formlogInWithClickLinkImageDns3</span>
-                <span class="method-start">36164 ms</span>
+                <span class="method-start">44365 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithInputInvalidPhonePressed</span>
-                <span class="method-start">41639 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">formlogInWithClickLinkImageDns4</span>
-                <span class="method-start">50700 ms</span>
+                <span class="method-start">47805 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithShowPassword</span>
-                <span class="method-start">53876 ms</span>
+                <span class="method-start">59568 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">formlogInWithClickLinkRegistration</span>
-                <span class="method-start">63055 ms</span>
+                <span class="method-name">formlogInWithClickLinkImageDns4</span>
+                <span class="method-start">61080 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithVoidValue</span>
-                <span class="method-start">66047 ms</span>
+                <span class="method-start">69477 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logInLogOut</span>
-                <span class="method-start">73329 ms</span>
+                <span class="method-name">formlogInWithClickLinkRegistration</span>
+                <span class="method-start">75398 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithVoidValuePressedRadioButtonPhone</span>
-                <span class="method-start">75959 ms</span>
+                <span class="method-start">80330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInLogOut</span>
+                <span class="method-start">87610 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithoutInputEmail</span>
-                <span class="method-start">87238 ms</span>
+                <span class="method-start">90794 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithoutInputPassword</span>
-                <span class="method-start">95938 ms</span>
+                <span class="method-start">101671 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithoutInputPasswordPressedRadioButtonPhone</span>
-                <span class="method-start">106140 ms</span>
+                <span class="method-start">113386 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logInWithoutInputPhone</span>
-                <span class="method-start">117397 ms</span>
+                <span class="method-start">125700 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
