@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 136.089 s <<< FAILURE! - in TestSuite
-LogInWithInputInvalidPasswordPressedRadioButtonPhone(Example.ExampleTest)  Time elapsed: 3.951 s  <<< FAILURE!
-java.lang.AssertionError: expected [] but found [Ошибка! Неправильная пара логин или пароль]
-	at Example.ExampleTest.LogInWithInputInvalidPasswordPressedRadioButtonPhone(ExampleTest.java:141)
-
