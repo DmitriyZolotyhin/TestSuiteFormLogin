@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="1" ignored="18" total="36" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="FormLoginToTheWebsiteOfTheRegisteredUser" duration-ms="135527" started-at="2017-04-19T14:35:15Z" finished-at="2017-04-19T14:37:30Z">
+  <suite name="FormLoginToTheWebsiteOfTheRegisteredUser" duration-ms="137554" started-at="2017-04-21T05:22:29Z" finished-at="2017-04-21T05:24:47Z">
     <groups>
       <group name="positive_test">
         <method signature="ExampleTest.formlogInWithClickLinkForgotPassword()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkForgotPassword" class="Example.ExampleTest"/>
@@ -15,7 +15,7 @@
       </group> <!-- positive_test -->
       <group name="negative_test">
         <method signature="ExampleTest.LogInWithInputInvalidPasswordPressedRadioButtonPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="LogInWithInputInvalidPasswordPressedRadioButtonPhone" class="Example.ExampleTest"/>
-        <method signature="ExampleTest.logInWithInputInvalidEmal()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidEmal" class="Example.ExampleTest"/>
+        <method signature="ExampleTest.logInWithInputInvalidEmal()[pri:1, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidEmal" class="Example.ExampleTest"/>
         <method signature="ExampleTest.logInWithInputInvalidPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidPassword" class="Example.ExampleTest"/>
         <method signature="ExampleTest.logInWithInputInvalidPhonePressed()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidPhonePressed" class="Example.ExampleTest"/>
         <method signature="ExampleTest.logInWithShowPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithShowPassword" class="Example.ExampleTest"/>
@@ -27,41 +27,45 @@
         <method signature="ExampleTest.logInWithoutInputPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputPhone" class="Example.ExampleTest"/>
       </group> <!-- negative_test -->
     </groups>
-    <test name="test2" duration-ms="108458" started-at="2017-04-19T14:35:15Z" finished-at="2017-04-19T14:37:03Z">
+    <test name="test2" duration-ms="103861" started-at="2017-04-21T05:22:29Z" finished-at="2017-04-21T05:24:13Z">
       <class name="Example.ExampleTest">
-        <test-method status="PASS" signature="formlogInWithClickLinkForgotPassword()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkForgotPassword" duration-ms="12925" started-at="2017-04-19T17:35:15Z" finished-at="2017-04-19T17:35:27Z">
+        <test-method status="PASS" signature="formlogInWithClickLinkForgotPassword()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkForgotPassword" duration-ms="11925" started-at="2017-04-21T08:22:29Z" finished-at="2017-04-21T08:22:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formlogInWithClickLinkForgotPassword -->
-        <test-method status="PASS" signature="formlogInWithClickLinkImageDns1()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns1" duration-ms="15791" started-at="2017-04-19T17:35:27Z" finished-at="2017-04-19T17:35:43Z">
+        <test-method status="PASS" signature="formlogInWithClickLinkImageDns1()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns1" duration-ms="14406" started-at="2017-04-21T08:22:41Z" finished-at="2017-04-21T08:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formlogInWithClickLinkImageDns1 -->
-        <test-method status="PASS" signature="formlogInWithClickLinkImageDns2()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns2" duration-ms="15646" started-at="2017-04-19T17:35:43Z" finished-at="2017-04-19T17:35:59Z">
+        <test-method status="PASS" signature="formlogInWithClickLinkImageDns2()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns2" duration-ms="14578" started-at="2017-04-21T08:22:56Z" finished-at="2017-04-21T08:23:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formlogInWithClickLinkImageDns2 -->
-        <test-method status="PASS" signature="formlogInWithClickLinkImageDns3()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns3" duration-ms="16715" started-at="2017-04-19T17:35:59Z" finished-at="2017-04-19T17:36:16Z">
+        <test-method status="PASS" signature="formlogInWithClickLinkImageDns3()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns3" duration-ms="16550" started-at="2017-04-21T08:23:10Z" finished-at="2017-04-21T08:23:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formlogInWithClickLinkImageDns3 -->
-        <test-method status="PASS" signature="formlogInWithClickLinkImageDns4()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns4" duration-ms="14318" started-at="2017-04-19T17:36:16Z" finished-at="2017-04-19T17:36:30Z">
+        <test-method status="PASS" signature="formlogInWithClickLinkImageDns4()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkImageDns4" duration-ms="16295" started-at="2017-04-21T08:23:27Z" finished-at="2017-04-21T08:23:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formlogInWithClickLinkImageDns4 -->
-        <test-method status="PASS" signature="formlogInWithClickLinkRegistration()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkRegistration" duration-ms="12211" started-at="2017-04-19T17:36:30Z" finished-at="2017-04-19T17:36:42Z">
+        <test-method status="PASS" signature="formlogInWithClickLinkRegistration()[pri:0, instance:Example.ExampleTest@366e2eef]" name="formlogInWithClickLinkRegistration" duration-ms="12566" started-at="2017-04-21T08:23:43Z" finished-at="2017-04-21T08:23:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formlogInWithClickLinkRegistration -->
-        <test-method status="PASS" signature="logInLogOut()[pri:0, instance:Example.ExampleTest@366e2eef]" name="logInLogOut" duration-ms="20817" started-at="2017-04-19T17:36:42Z" finished-at="2017-04-19T17:37:03Z">
+        <test-method status="PASS" signature="logInLogOut()[pri:0, instance:Example.ExampleTest@366e2eef]" name="logInLogOut" duration-ms="17524" started-at="2017-04-21T08:23:56Z" finished-at="2017-04-21T08:24:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInLogOut -->
       </class> <!-- Example.ExampleTest -->
     </test> <!-- test2 -->
-    <test name="test1" duration-ms="135527" started-at="2017-04-19T14:35:15Z" finished-at="2017-04-19T14:37:30Z">
+    <test name="test1" duration-ms="137554" started-at="2017-04-21T05:22:29Z" finished-at="2017-04-21T05:24:47Z">
       <class name="Example.ExampleTest">
-        <test-method status="FAIL" signature="LogInWithInputInvalidPasswordPressedRadioButtonPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="LogInWithInputInvalidPasswordPressedRadioButtonPhone" duration-ms="16880" started-at="2017-04-19T17:35:15Z" finished-at="2017-04-19T17:35:31Z">
+        <test-method status="PASS" signature="LogInWithInputInvalidPasswordPressedRadioButtonPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="LogInWithInputInvalidPasswordPressedRadioButtonPhone" duration-ms="18009" started-at="2017-04-21T08:22:29Z" finished-at="2017-04-21T08:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInWithInputInvalidPasswordPressedRadioButtonPhone -->
+        <test-method status="FAIL" signature="logInWithInputInvalidPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidPassword" duration-ms="11355" started-at="2017-04-21T08:22:47Z" finished-at="2017-04-21T08:22:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [] but found [Ошибка! Неправильная пара логин или пароль]]]>
@@ -74,8 +78,8 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at Example.LogInWithInputInvalidPasswordPressedRadioButtonPhone.logInWithInputInvalidPassword1(LogInWithInputInvalidPasswordPressedRadioButtonPhone.java:52)
-	at Example.ExampleTest.LogInWithInputInvalidPasswordPressedRadioButtonPhone(ExampleTest.java:141)
+	at Example.LogInWithInputInvalidPassword.logInWithInputInvalidPassword1(LogInWithInputInvalidPassword.java:46)
+	at Example.ExampleTest.logInWithInputInvalidPassword(ExampleTest.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,47 +105,43 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LogInWithInputInvalidPasswordPressedRadioButtonPhone -->
-        <test-method status="PASS" signature="logInWithInputInvalidEmal()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidEmal" duration-ms="14357" started-at="2017-04-19T17:35:31Z" finished-at="2017-04-19T17:35:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInWithInputInvalidEmal -->
-        <test-method status="PASS" signature="logInWithInputInvalidPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidPassword" duration-ms="16568" started-at="2017-04-19T17:35:46Z" finished-at="2017-04-19T17:36:02Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- logInWithInputInvalidPassword -->
-        <test-method status="PASS" signature="logInWithInputInvalidPhonePressed()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidPhonePressed" duration-ms="11763" started-at="2017-04-19T17:36:02Z" finished-at="2017-04-19T17:36:14Z">
+        <test-method status="PASS" signature="logInWithInputInvalidPhonePressed()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidPhonePressed" duration-ms="13671" started-at="2017-04-21T08:22:59Z" finished-at="2017-04-21T08:23:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithInputInvalidPhonePressed -->
-        <test-method status="PASS" signature="logInWithShowPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithShowPassword" duration-ms="9909" started-at="2017-04-19T17:36:14Z" finished-at="2017-04-19T17:36:24Z">
+        <test-method status="PASS" signature="logInWithShowPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithShowPassword" duration-ms="12712" started-at="2017-04-21T08:23:12Z" finished-at="2017-04-21T08:23:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithShowPassword -->
-        <test-method status="PASS" signature="logInWithVoidValue()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithVoidValue" duration-ms="10853" started-at="2017-04-19T17:36:24Z" finished-at="2017-04-19T17:36:35Z">
+        <test-method status="PASS" signature="logInWithVoidValue()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithVoidValue" duration-ms="10182" started-at="2017-04-21T08:23:25Z" finished-at="2017-04-21T08:23:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithVoidValue -->
-        <test-method status="PASS" signature="logInWithVoidValuePressedRadioButtonPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithVoidValuePressedRadioButtonPhone" duration-ms="10464" started-at="2017-04-19T17:36:35Z" finished-at="2017-04-19T17:36:45Z">
+        <test-method status="PASS" signature="logInWithVoidValuePressedRadioButtonPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithVoidValuePressedRadioButtonPhone" duration-ms="10253" started-at="2017-04-21T08:23:35Z" finished-at="2017-04-21T08:23:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithVoidValuePressedRadioButtonPhone -->
-        <test-method status="PASS" signature="logInWithoutInputEmail()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputEmail" duration-ms="10877" started-at="2017-04-19T17:36:45Z" finished-at="2017-04-19T17:36:56Z">
+        <test-method status="PASS" signature="logInWithoutInputEmail()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputEmail" duration-ms="11302" started-at="2017-04-21T08:23:46Z" finished-at="2017-04-21T08:23:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithoutInputEmail -->
-        <test-method status="PASS" signature="logInWithoutInputPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputPassword" duration-ms="11715" started-at="2017-04-19T17:36:56Z" finished-at="2017-04-19T17:37:08Z">
+        <test-method status="PASS" signature="logInWithoutInputPassword()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputPassword" duration-ms="21877" started-at="2017-04-21T08:23:57Z" finished-at="2017-04-21T08:24:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithoutInputPassword -->
-        <test-method status="PASS" signature="logInWithoutInputPasswordPressedRadioButtonPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputPasswordPressedRadioButtonPhone" duration-ms="12314" started-at="2017-04-19T17:37:08Z" finished-at="2017-04-19T17:37:20Z">
+        <test-method status="PASS" signature="logInWithoutInputPasswordPressedRadioButtonPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputPasswordPressedRadioButtonPhone" duration-ms="10393" started-at="2017-04-21T08:24:19Z" finished-at="2017-04-21T08:24:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithoutInputPasswordPressedRadioButtonPhone -->
-        <test-method status="PASS" signature="logInWithoutInputPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputPhone" duration-ms="9796" started-at="2017-04-19T17:37:20Z" finished-at="2017-04-19T17:37:30Z">
+        <test-method status="PASS" signature="logInWithoutInputPhone()[pri:0, instance:Example.ExampleTest@62043840]" name="logInWithoutInputPhone" duration-ms="8276" started-at="2017-04-21T08:24:29Z" finished-at="2017-04-21T08:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInWithoutInputPhone -->
+        <test-method status="PASS" signature="logInWithInputInvalidEmal()[pri:1, instance:Example.ExampleTest@62043840]" name="logInWithInputInvalidEmal" duration-ms="9485" started-at="2017-04-21T08:24:37Z" finished-at="2017-04-21T08:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInputInvalidEmal -->
       </class> <!-- Example.ExampleTest -->
     </test> <!-- test1 -->
   </suite> <!-- FormLoginToTheWebsiteOfTheRegisteredUser -->

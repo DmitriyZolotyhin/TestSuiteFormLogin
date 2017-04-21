@@ -5,6 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
@@ -18,7 +19,7 @@ public class LoginInWithInputInvalidEmail {
 
 
 
-    public static void logInWithInputInvalidEmal1()
+    public static void logInWithInputInvalidEmal()
     {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();

@@ -10,7 +10,7 @@
     <classes>
       <class name="Example.ExampleTest">
         <methods>
-          <include name="LogInWithInputInvalidPasswordPressedRadioButtonPhone"/>
+          <include name="logInWithInputInvalidPassword"/>
         </methods>
       </class> <!-- Example.ExampleTest -->
     </classes>

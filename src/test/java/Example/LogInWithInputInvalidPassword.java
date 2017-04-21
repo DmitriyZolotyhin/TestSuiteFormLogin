@@ -24,6 +24,8 @@ public class LogInWithInputInvalidPassword {
         WebElement searchButton = driver.findElement(By.cssSelector("a#loginButton.dropdown-toggle"));
         searchButton.click();
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        driver.manage().deleteAllCookies();
+
         //Найти поле и ввести в поле логин корректное значение
         WebElement searchField = driver.findElement(By.cssSelector("input#login.first.placeholder-right"));
         searchField.clear();

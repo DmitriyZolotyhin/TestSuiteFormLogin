@@ -58,10 +58,10 @@ public class ExampleTest {
     }
 
 
-    @Test(groups = {"negative_test"})
+    @Test(priority = 1,groups = {"negative_test"})
     public void logInWithInputInvalidEmal()
     {
-        LoginInWithInputInvalidEmail.logInWithInputInvalidEmal1();
+        LoginInWithInputInvalidEmail.logInWithInputInvalidEmal();
     }
 
 
