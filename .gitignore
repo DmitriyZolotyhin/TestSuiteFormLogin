@@ -44,6 +44,7 @@ hs_err_pid*
 .idea/**/gradle.xml
 .idea/**/libraries
 
+
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
 
@@ -52,8 +53,11 @@ hs_err_pid*
 
 ## Plugin-specific files:
 
-# IntelliJ
-/out/
+
+# IntellijIdea files
+*.iml
+.idea
+out
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
