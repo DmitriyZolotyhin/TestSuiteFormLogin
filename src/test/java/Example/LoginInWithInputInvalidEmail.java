@@ -19,7 +19,7 @@ public class LoginInWithInputInvalidEmail {
 
 
 
-    public static void logInWithInputInvalidEmal()
+    public static void logInWithInputInvalidEmail1()
     {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();

@@ -18,6 +18,7 @@ public class LoginInWithOutInputPhone {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://www.dns-shop.ru/");
+        driver.manage().deleteAllCookies();
 
         //Поиск и нажать кнопку Войти
 

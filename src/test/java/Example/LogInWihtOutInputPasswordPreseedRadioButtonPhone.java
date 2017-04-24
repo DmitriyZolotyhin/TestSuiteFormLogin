@@ -18,6 +18,7 @@ public class LogInWihtOutInputPasswordPreseedRadioButtonPhone {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://www.dns-shop.ru/");
+        driver.manage().deleteAllCookies();
 
         //Нажать Войти и записать login
 

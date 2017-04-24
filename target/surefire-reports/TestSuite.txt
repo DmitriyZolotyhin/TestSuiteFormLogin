@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 138.724 s <<< FAILURE! - in TestSuite
-logInWithInputInvalidPassword(Example.ExampleTest)  Time elapsed: 3.036 s  <<< FAILURE!
-java.lang.AssertionError: expected [] but found [Ошибка! Неправильная пара логин или пароль]
-	at Example.ExampleTest.logInWithInputInvalidPassword(ExampleTest.java:71)
-
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 123.709 s - in TestSuite

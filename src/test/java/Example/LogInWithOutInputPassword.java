@@ -19,6 +19,7 @@ public class LogInWithOutInputPassword {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://www.dns-shop.ru/");
+        driver.manage().deleteAllCookies(); //удалить куки
 
 
         //Найти и нажать кнопку Войти

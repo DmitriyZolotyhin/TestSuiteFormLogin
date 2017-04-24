@@ -19,6 +19,7 @@ public class LogInLogOut {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://www.dns-shop.ru/");
+        driver.manage().deleteAllCookies();
 
         //Поиск  и ввод кнопки login
         WebElement searchButton = driver.findElement(By.cssSelector("a#loginButton.dropdown-toggle"));

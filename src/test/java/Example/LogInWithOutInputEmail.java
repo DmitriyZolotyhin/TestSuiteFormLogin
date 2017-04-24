@@ -19,6 +19,7 @@ public class LogInWithOutInputEmail {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://www.dns-shop.ru/");
+        driver.manage().deleteAllCookies();
 
         //Найти и нажать кнопку Войти
         WebElement searchButton = driver.findElement(By.cssSelector("a#loginButton.dropdown-toggle"));

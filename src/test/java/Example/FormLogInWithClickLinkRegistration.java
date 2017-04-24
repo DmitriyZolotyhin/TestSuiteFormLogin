@@ -18,6 +18,7 @@ public class FormLogInWithClickLinkRegistration {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://www.dns-shop.ru/");
+        driver.manage().deleteAllCookies();
 
         //Нажать кнопку Войти
         WebElement searchButton = driver.findElement(By.cssSelector("a#loginButton.dropdown-toggle"));
