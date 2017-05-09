@@ -29,7 +29,8 @@ public class FormLogInWithClickLinkImageDns4 {
         WebElement searchField = driver.findElement(By.xpath("html/body/div[1]/div[2]/div[1]/div[4]/a/div"));
         searchField.click();
         driver.getCurrentUrl();
-        Assert.assertEquals("http://service.dns-shop.ru/", "http://service.dns-shop.ru/");
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals( currentUrl , "http://service.dns-shop.ru/");
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.quit();
 

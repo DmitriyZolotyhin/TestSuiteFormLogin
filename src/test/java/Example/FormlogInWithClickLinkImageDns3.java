@@ -30,7 +30,8 @@ public class FormlogInWithClickLinkImageDns3 {
         WebElement searchField = driver.findElement(By.xpath("html/body/div[1]/div[2]/div[1]/div[3]/a/div"));
         searchField.click();
         driver.getCurrentUrl();
-        Assert.assertEquals("http://www.frau-technica.ru/", "http://www.frau-technica.ru/");
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals( currentUrl , "http://www.frau-technica.ru/");
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.quit();
 

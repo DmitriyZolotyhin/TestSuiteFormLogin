@@ -8,6 +8,8 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
+import static javafx.scene.input.DataFormat.URL;
+
 /**
  * Created by Администратор on 17.04.2017.
  */
@@ -20,7 +22,7 @@ public class FormLogInWithClickLinkImageDns1 {
         driver.get("http://www.dns-shop.ru/");
         driver.manage().deleteAllCookies();
 
-        //Нажать кнопку Войти
+        //Найти и Нажать кнопку Войти
         WebElement searchButton = driver.findElement(By.cssSelector("a#loginButton.dropdown-toggle"));
         searchButton.click();
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
@@ -28,8 +30,10 @@ public class FormLogInWithClickLinkImageDns1 {
         // Поиск элемента и сравнение на какой сайт перешел после нажатия
         WebElement searchField = driver.findElement(By.xpath("html/body/div[1]/div[2]/div[1]/div[1]/a/div"));
         searchField.click();
-        driver.getCurrentUrl();
-        Assert.assertEquals("http://www.dns-shop.ru/", "http://www.dns-shop.ru/");
+        driver.getCurrentUrl();//Адрес страницы после нажатия кнопки Элемента
+
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals( currentUrl , "http://www.dns-shop.ru/");//Сравнение адреса страницы после нажатия кнопки и нужного адреса
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.quit();
 

@@ -29,7 +29,8 @@ public class FormLogInWithClickLinkRegistration {
         WebElement searchField = driver.findElement(By.xpath("html/body/div[1]/div[2]/div[3]/a"));
         searchField.click();
         driver.getCurrentUrl();
-        Assert.assertEquals("https://accounts.dns-shop.ru/registration", "https://accounts.dns-shop.ru/registration");
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals( currentUrl , "https://accounts.dns-shop.ru/registration");
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.quit();
 
